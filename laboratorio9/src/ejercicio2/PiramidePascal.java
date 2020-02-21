@@ -56,7 +56,7 @@ public class PiramidePascal extends JFrame {
 	public PiramidePascal() {
 		setTitle("TRIANGULO PASCAL- RUBIO PACHECO");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 550, 330);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
@@ -69,7 +69,7 @@ public class PiramidePascal extends JFrame {
 		
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(0, 37, 414, 214);
+		scrollPane.setBounds(0, 37, 524, 244);
 		panel.add(scrollPane);
 		
 		JTable table = new JTable();
